@@ -1,2 +1,2 @@
-# BIT607P
-BIT607 Practice Run
+# BIT607 
+BIT607 Assessment 2
