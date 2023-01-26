@@ -27,5 +27,5 @@ AOS.init({
 })
 
 
-// product page //
+
 
