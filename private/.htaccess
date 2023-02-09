@@ -1,4 +1,4 @@
-# for URI=staff.html set an env variable PROTECTED=1
+# for URI= "./private/staff.html" set an env variable PROTECTED=1
 SetEnvIfNoCase Request_URI staff.html PROTECTED
 
 # allow all pages but put PROTECTED=1 behind basic auth
