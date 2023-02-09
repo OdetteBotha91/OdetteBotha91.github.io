@@ -1,4 +1,12 @@
+# for URI=staff.html set an env variable PROTECTED=1
+SetEnvIfNoCase Request_URI staff.html PROTECTED
+
+# allow all pages but put PROTECTED=1 behind basic auth
 AuthType Basic
 AuthName  "Restricted Access"
-AuthUserFile  "/app/.htpasswd"
+AuthUserFile  private
 Require valid-user
+Satisfy    any
+Order      Allow,Deny
+Allow from all
+Deny from env=PROTECTED
