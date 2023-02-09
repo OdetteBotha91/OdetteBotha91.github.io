@@ -1065,7 +1065,7 @@ textarea {
 }
 
 .importantInfo__item__image img {
-    object-fit: cover;
+    object-fit: fill;
     border-radius: 12px;
 }
 
