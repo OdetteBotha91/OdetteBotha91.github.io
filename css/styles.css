@@ -921,9 +921,6 @@ textarea {
     }
 }
 
-
-
-
 @media (max-width: 550px) {
     .calendar__large__view {
         display: none;
@@ -935,13 +932,7 @@ textarea {
         display: none;
         flex: 20;
  }
-
 }
-
-
-
-
-
 
 /* HOURS PAGE HERO SECTION */
 /****** END *****/
@@ -1065,7 +1056,7 @@ textarea {
 }
 
 .importantInfo__item__image img {
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 12px;
 }
 
@@ -1101,12 +1092,9 @@ textarea {
     color: var(--black);
 }
 
-
-
 @media only screen and (min-width: 768px) {
     .importantInfo__title {
         font-size: 3rem;
-
     }
 
     .importantInfo__wrapper {
@@ -1168,7 +1156,7 @@ textarea {
 .gallery img {
     width: 100%;
     display: block;
-    object-fit: cover;
+    object-fit: contain;
     padding: 1.5em;
 }
 
@@ -1215,11 +1203,6 @@ textarea {
 
 /* GIFT CARD PAGE */       
 /****** END *****/
-
-
-
-
-
 
 
 /****** START *****/
@@ -1298,7 +1281,7 @@ textarea {
 }
 
 .ourMission__imgs__wrapper img {
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .ourMission__imgs__wrapper {
@@ -1444,8 +1427,6 @@ textarea {
 /* google maps iframe end*/
 /* CONTACT US PAGE */  
 /****** END *****/
-
-
 
 
 /****** START *****/
