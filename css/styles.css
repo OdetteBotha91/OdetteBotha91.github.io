@@ -921,9 +921,6 @@ textarea {
     }
 }
 
-
-
-
 @media (max-width: 550px) {
     .calendar__large__view {
         display: none;
@@ -935,14 +932,7 @@ textarea {
         display: none;
         flex: 20;
  }
-
 }
-
-
-
-
-
-
 /* HOURS PAGE HERO SECTION */
 /****** END *****/
 
@@ -1101,12 +1091,9 @@ textarea {
     color: var(--black);
 }
 
-
-
 @media only screen and (min-width: 768px) {
     .importantInfo__title {
         font-size: 3rem;
-
     }
 
     .importantInfo__wrapper {
@@ -1141,9 +1128,7 @@ textarea {
 
 
 /****** START *****/
-/* GIFT CARD PAGE */   
-
-  
+/* GIFT CARD PAGE */     
 .container__shop {
     width: 100%;
     min-height: 100vh;
@@ -1168,7 +1153,7 @@ textarea {
 .gallery img {
     width: 100%;
     display: block;
-    object-fit: fill;
+    object-fit: cover;
     padding: 1.5em;
 }
 
@@ -1212,14 +1197,8 @@ textarea {
 #priceSelect {
     width: fit-content;
 }
-
 /* GIFT CARD PAGE */       
 /****** END *****/
-
-
-
-
-
 
 
 /****** START *****/
@@ -1354,7 +1333,6 @@ textarea {
     gap: 2rem;
 }
 
-
 .form__group label {
     font-size: 1.8rem;
     font-family: 'Raleway';
@@ -1446,8 +1424,6 @@ textarea {
 /****** END *****/
 
 
-
-
 /****** START *****/
 /* HOURS PAGE */
 .ourHours__title {
@@ -1465,10 +1441,7 @@ textarea {
     line-height: 1.5em;
     text-align: center;
 }
-
 /* Calendar - make the iframe responsive for mobile devices */
-
-
 /* HOURS PAGE */  
 /****** END *****/
 
@@ -1605,6 +1578,7 @@ textarea {
 /* FOOTER */
 /****** END *****/
 
+
 /****** START *****/
 /* BACK TO TOP BUTTON */
 #myBtn{
@@ -1636,5 +1610,3 @@ textarea {
   }
 /* BACK TO TOP BUTTON */
 /****** END *****/
-
-    
