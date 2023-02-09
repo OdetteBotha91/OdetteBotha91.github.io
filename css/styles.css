@@ -265,7 +265,7 @@ form {
  * Define consistent border, margin, and padding.
  */
 
-fieldset {
+/*fieldset {
 	border: 1px solid #000000;
 	margin: 0 2px;
 	padding: 0.35em 0.625em 0.75em;
@@ -700,7 +700,7 @@ textarea {
 /****** START *****/
 /* NAVIGATION */
     .nav {
-        padding: 2rem 0;
+        padding: 1.5rem 0;
     }
 
     /* elements will be used to navigate on smaller devices */ /*.nav__bgOverlay*/
