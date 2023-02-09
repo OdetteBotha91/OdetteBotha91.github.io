@@ -265,7 +265,7 @@ form {
  * Define consistent border, margin, and padding.
  */
 
-/*fieldset {
+fieldset {
 	border: 1px solid #000000;
 	margin: 0 2px;
 	padding: 0.35em 0.625em 0.75em;
@@ -437,7 +437,7 @@ textarea {
 }
 
 img {
-	vertical-align: auto;
+	vertical-align: middle;
 }
 
 fieldset {
@@ -516,7 +516,7 @@ textarea {
     img {
         width: 80%;
         height: 80%;
-        object-fit: cover;
+        object-fit: contain;
     }
 
     /* declare heading fonts */
@@ -700,7 +700,7 @@ textarea {
 /****** START *****/
 /* NAVIGATION */
     .nav {
-        padding: 1.5rem 0;
+        padding: 2rem 0;
     }
 
     /* elements will be used to navigate on smaller devices */ /*.nav__bgOverlay*/
@@ -921,6 +921,9 @@ textarea {
     }
 }
 
+
+
+
 @media (max-width: 550px) {
     .calendar__large__view {
         display: none;
@@ -932,7 +935,13 @@ textarea {
         display: none;
         flex: 20;
  }
+
 }
+
+
+
+
+
 
 /* HOURS PAGE HERO SECTION */
 /****** END *****/
@@ -1056,7 +1065,7 @@ textarea {
 }
 
 .importantInfo__item__image img {
-    object-fit: contain;
+    object-fit: cover;
     border-radius: 12px;
 }
 
@@ -1092,9 +1101,12 @@ textarea {
     color: var(--black);
 }
 
+
+
 @media only screen and (min-width: 768px) {
     .importantInfo__title {
         font-size: 3rem;
+
     }
 
     .importantInfo__wrapper {
@@ -1156,7 +1168,7 @@ textarea {
 .gallery img {
     width: 100%;
     display: block;
-    object-fit: contain;
+    object-fit: fill;
     padding: 1.5em;
 }
 
@@ -1203,6 +1215,11 @@ textarea {
 
 /* GIFT CARD PAGE */       
 /****** END *****/
+
+
+
+
+
 
 
 /****** START *****/
@@ -1281,7 +1298,7 @@ textarea {
 }
 
 .ourMission__imgs__wrapper img {
-    object-fit: contain;
+    object-fit: cover;
 }
 
 .ourMission__imgs__wrapper {
@@ -1427,6 +1444,8 @@ textarea {
 /* google maps iframe end*/
 /* CONTACT US PAGE */  
 /****** END *****/
+
+
 
 
 /****** START *****/
@@ -1617,12 +1636,3 @@ textarea {
   }
 /* BACK TO TOP BUTTON */
 /****** END *****/
-
-/****** START *****/
-/* STAFF PAGE */
-
-
-
-
-/* STAFF PAGE */
-/****** END *****/  
