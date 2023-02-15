@@ -265,7 +265,7 @@ form {
  * Define consistent border, margin, and padding.
  */
 
-/*fieldset {
+fieldset {
 	border: 1px solid #000000;
 	margin: 0 2px;
 	padding: 0.35em 0.625em 0.75em;
@@ -514,9 +514,9 @@ textarea {
 
     /* declare image behaviour */
     img {
-        width: 100%;
-        height: 100%;
-        object-fit: fill;
+        width: 80%;
+        height: 80%;
+        object-fit: contain;
     }
 
     /* declare heading fonts */
@@ -700,7 +700,7 @@ textarea {
 /****** START *****/
 /* NAVIGATION */
     .nav {
-        padding: 1.5rem 0;
+        padding: 2rem 0;
     }
 
     /* elements will be used to navigate on smaller devices */ /*.nav__bgOverlay*/
@@ -921,9 +921,6 @@ textarea {
     }
 }
 
-
-
-
 @media (max-width: 550px) {
     .calendar__large__view {
         display: none;
@@ -935,14 +932,7 @@ textarea {
         display: none;
         flex: 20;
  }
-
 }
-
-
-
-
-
-
 /* HOURS PAGE HERO SECTION */
 /****** END *****/
 
@@ -1065,7 +1055,7 @@ textarea {
 }
 
 .importantInfo__item__image img {
-    object-fit: fill;
+    object-fit: cover;
     border-radius: 12px;
 }
 
@@ -1101,12 +1091,9 @@ textarea {
     color: var(--black);
 }
 
-
-
 @media only screen and (min-width: 768px) {
     .importantInfo__title {
         font-size: 3rem;
-
     }
 
     .importantInfo__wrapper {
@@ -1141,9 +1128,7 @@ textarea {
 
 
 /****** START *****/
-/* GIFT CARD PAGE */   
-
-  
+/* GIFT CARD PAGE */     
 .container__shop {
     width: 100%;
     min-height: 100vh;
@@ -1168,7 +1153,7 @@ textarea {
 .gallery img {
     width: 100%;
     display: block;
-    object-fit: fill;
+    object-fit: cover;
     padding: 1.5em;
 }
 
@@ -1212,14 +1197,8 @@ textarea {
 #priceSelect {
     width: fit-content;
 }
-
 /* GIFT CARD PAGE */       
 /****** END *****/
-
-
-
-
-
 
 
 /****** START *****/
@@ -1354,7 +1333,6 @@ textarea {
     gap: 2rem;
 }
 
-
 .form__group label {
     font-size: 1.8rem;
     font-family: 'Raleway';
@@ -1446,8 +1424,6 @@ textarea {
 /****** END *****/
 
 
-
-
 /****** START *****/
 /* HOURS PAGE */
 .ourHours__title {
@@ -1465,10 +1441,7 @@ textarea {
     line-height: 1.5em;
     text-align: center;
 }
-
 /* Calendar - make the iframe responsive for mobile devices */
-
-
 /* HOURS PAGE */  
 /****** END *****/
 
@@ -1605,6 +1578,7 @@ textarea {
 /* FOOTER */
 /****** END *****/
 
+
 /****** START *****/
 /* BACK TO TOP BUTTON */
 #myBtn{
@@ -1635,13 +1609,8 @@ textarea {
       color: var(--black);
   }
 /* BACK TO TOP BUTTON */
+<<<<<<< HEAD
 /****** END *****/
-
-/****** START *****/
-/* STAFF PAGE */
-
-
-
-
-/* STAFF PAGE */
-/****** END *****/  
+=======
+/****** END *****/
+>>>>>>> 3d7c0649c44635e3af1a85144880d2c8ccf0fcfd
